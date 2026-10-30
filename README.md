@@ -95,9 +95,13 @@ const kheyvin = {
   <img src="https://github-profile-trophy.vercel.app/?username=Kheyvin&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7" alt="Trophies" />
 </p>
 
-<!-- Snake de contribuciones (ver instrucciones en SETUP.md) -->
+<!-- Snake de contribuciones (generado por .github/workflows/snake.yml en la rama output) -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kheyvin/Kheyvin/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kheyvin/Kheyvin/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kheyvin/Kheyvin/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/Kheyvin/Kheyvin/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
+  </picture>
 </p>
 
 <p align="center">

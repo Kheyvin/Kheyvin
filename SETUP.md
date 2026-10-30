@@ -5,37 +5,30 @@
 3. Copia en la raíz del repo:
    - `README.md`
    - carpeta `assets/` (con `header.svg` y `divider.svg`)
+   - carpeta `.github/` (con el workflow del snake)
 4. Haz commit y push. GitHub mostrará el README en tu perfil automáticamente.
 
-## Snake de contribuciones (opcional)
+## Snake de contribuciones
 
-Crea `.github/workflows/snake.yml` en el mismo repo con:
+El workflow [`.github/workflows/snake.yml`](.github/workflows/snake.yml) usa [Platane/snk](https://github.com/Platane/snk) para generar dos SVG y publicarlos en la rama `output`:
 
-```yaml
-name: generate snake
-on:
-  schedule: [{ cron: "0 */12 * * *" }]
-  workflow_dispatch:
-  push: { branches: [main] }
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions: { contents: write }
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: Kheyvin
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ff0a2e&color_dots=#141417,#3a0a12,#7a0a1c,#c8102e,#ff3b5c
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
+| Archivo | Tema |
+|---------|------|
+| `github-contribution-grid-snake-dark.svg` | Oscuro (serpiente `#FF0A2E`) |
+| `github-contribution-grid-snake.svg` | Claro (serpiente `#C8102E`) |
 
-Ejecútalo una vez desde la pestaña **Actions → generate snake → Run workflow**. Si prefieres no usarlo, borra el bloque `<!-- Snake -->` del README.
+Se ejecuta en cada push a `main` y cada 12 horas. La primera vez:
+
+1. Ve a **Settings → Actions → General → Workflow permissions** y marca **Read and write permissions**.
+2. Ve a **Actions → generate snake → Run workflow**.
+3. Cuando termine, existirá la rama `output` y el README mostrará el snake (el `<picture>` elige la versión según el tema de quien visita).
+
+Notas:
+
+- Si quieres que cuenten tus contribuciones privadas, activa **Private contributions** en la configuración de tu perfil.
+- GitHub pausa los workflows programados tras 60 días sin actividad en el repo; si el snake deja de actualizarse, vuelve a lanzarlo desde Actions.
+- Para cambiar colores, edita `color_snake` y `color_dots` (5 colores: vacío → máximo) en el workflow.
+- Si prefieres no usarlo, borra el workflow y el bloque `<!-- Snake de contribuciones -->` del README.
 
 ## Paleta usada
 
