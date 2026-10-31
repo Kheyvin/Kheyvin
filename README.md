@@ -56,8 +56,8 @@ const kheyvin = {
 ## `~/stats`
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Kheyvin&show_icons=true&hide_border=true&bg_color=0b0b0e&title_color=FF0A2E&icon_color=FF3B5C&text_color=b8b8c2&ring_color=C8102E&include_all_commits=true&count_private=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kheyvin&layout=compact&hide_border=true&bg_color=0b0b0e&title_color=FF0A2E&text_color=b8b8c2&langs_count=8" alt="Top languages" />
+  <img height="170" src="https://raw.githubusercontent.com/Kheyvin/Kheyvin/output/stats.svg" alt="GitHub stats" />
+  <img height="170" src="https://raw.githubusercontent.com/Kheyvin/Kheyvin/output/top-langs.svg" alt="Top languages" />
 </p>
 
 <p align="center">
@@ -65,7 +65,7 @@ const kheyvin = {
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kheyvin&bg_color=0b0b0e&color=b8b8c2&line=FF0A2E&point=FF3B5C&area=true&area_color=C8102E&hide_border=true&custom_title=Actividad" alt="Activity graph" />
+  <img src="https://raw.githubusercontent.com/Kheyvin/Kheyvin/output/activity.svg" alt="Activity graph" />
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
@@ -74,16 +74,16 @@ const kheyvin = {
 
 <p align="center">
   <a href="https://github.com/Kheyvin/catastro_automatic">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kheyvin&repo=catastro_automatic&bg_color=0b0b0e&title_color=FF0A2E&icon_color=FF3B5C&text_color=b8b8c2&hide_border=true" alt="catastro_automatic" />
+    <img src="https://raw.githubusercontent.com/Kheyvin/Kheyvin/output/pin-catastro_automatic.svg" alt="catastro_automatic" />
   </a>
   <a href="https://github.com/Kheyvin/catastro_license">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kheyvin&repo=catastro_license&bg_color=0b0b0e&title_color=FF0A2E&icon_color=FF3B5C&text_color=b8b8c2&hide_border=true" alt="catastro_license" />
+    <img src="https://raw.githubusercontent.com/Kheyvin/Kheyvin/output/pin-catastro_license.svg" alt="catastro_license" />
   </a>
   <a href="https://github.com/Kheyvin/setterevoapi">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kheyvin&repo=setterevoapi&bg_color=0b0b0e&title_color=FF0A2E&icon_color=FF3B5C&text_color=b8b8c2&hide_border=true" alt="setterevoapi" />
+    <img src="https://raw.githubusercontent.com/Kheyvin/Kheyvin/output/pin-setterevoapi.svg" alt="setterevoapi" />
   </a>
   <a href="https://github.com/Kheyvin/course_animation_demo">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kheyvin&repo=course_animation_demo&bg_color=0b0b0e&title_color=FF0A2E&icon_color=FF3B5C&text_color=b8b8c2&hide_border=true" alt="course_animation_demo" />
+    <img src="https://raw.githubusercontent.com/Kheyvin/Kheyvin/output/pin-course_animation_demo.svg" alt="course_animation_demo" />
   </a>
 </p>
 
@@ -92,10 +92,10 @@ const kheyvin = {
 ## `~/trophies`
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Kheyvin&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7" alt="Trophies" />
+  <img src="https://raw.githubusercontent.com/Kheyvin/Kheyvin/output/trophies.svg" alt="Trophies" />
 </p>
 
-<!-- Snake de contribuciones (generado por .github/workflows/snake.yml en la rama output) -->
+<!-- Snake de contribuciones (generado por .github/workflows/profile.yml en la rama output) -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kheyvin/Kheyvin/output/github-contribution-grid-snake-dark.svg" />
