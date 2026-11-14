@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" font-family="'JetBrains Mono','Segoe UI',Ubuntu,monospace" role="img" aria-label="Actividad de los últimos 31 días">
+  <style>
+    .line{stroke-dasharray:1;animation:draw 1.8s ease-out backwards}
+    .fade{animation:fade 1s ease-out .9s backwards}
+    @keyframes draw{from{stroke-dashoffset:1}}
+    @keyframes fade{from{opacity:0}}
+  </style>
+  <defs>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C8102E" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#C8102E" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="999" height="319" rx="10" fill="#0b0b0e" stroke="#232327"/>
+  <text x="32" y="40" font-size="20" font-weight="700" fill="#FF0A2E">Actividad</text>
+  <text x="152" y="40" font-size="13" fill="#b8b8c2">15 oct – 14 nov</text>
+  <text x="972" y="40" text-anchor="end" font-size="13" fill="#b8b8c2"><tspan fill="#F2F2F5" font-weight="700">36</tspan> contribuciones</text>
+  <g>
+    <line x1="56" x2="972" y1="276" y2="276" stroke="#1e1e23"/>
+    <text x="44" y="280" text-anchor="end" font-size="11" fill="#b8b8c2">0</text>
+    <line x1="56" x2="972" y1="225" y2="225" stroke="#1e1e23"/>
+    <text x="44" y="229" text-anchor="end" font-size="11" fill="#b8b8c2">2</text>
+    <line x1="56" x2="972" y1="174" y2="174" stroke="#1e1e23"/>
+    <text x="44" y="178" text-anchor="end" font-size="11" fill="#b8b8c2">4</text>
+    <line x1="56" x2="972" y1="123" y2="123" stroke="#1e1e23"/>
+    <text x="44" y="127" text-anchor="end" font-size="11" fill="#b8b8c2">6</text>
+    <line x1="56" x2="972" y1="72" y2="72" stroke="#1e1e23"/>
+    <text x="44" y="76" text-anchor="end" font-size="11" fill="#b8b8c2">8</text>
+  </g>
+  <text x="56.0" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">15</text><text x="117.1" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">17</text><text x="178.1" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">19</text><text x="239.2" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">21</text><text x="300.3" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">23</text><text x="361.3" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">25</text><text x="422.4" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">27</text><text x="483.5" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">29</text><text x="544.5" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">31</text><text x="605.6" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">2</text><text x="666.7" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">4</text><text x="727.7" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">6</text><text x="788.8" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">8</text><text x="849.9" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">10</text><text x="910.9" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">12</text><text x="972.0" y="302" text-anchor="middle" font-size="11" fill="#b8b8c2">14</text>
+  <path class="fade" d="M56.0,276.0L86.5,276.0L117.1,276.0L147.6,276.0L178.1,225.0L208.7,276.0L239.2,276.0L269.7,276.0L300.3,250.5L330.8,250.5L361.3,276.0L391.9,276.0L422.4,276.0L452.9,250.5L483.5,276.0L514.0,148.5L544.5,276.0L575.1,225.0L605.6,276.0L636.1,225.0L666.7,276.0L697.2,250.5L727.7,225.0L758.3,276.0L788.8,123.0L819.3,250.5L849.9,123.0L880.4,148.5L910.9,250.5L941.5,276.0L972.0,276.0L972.0,276L56,276Z" fill="url(#area)"/>
+  <path class="line" d="M56.0,276.0L86.5,276.0L117.1,276.0L147.6,276.0L178.1,225.0L208.7,276.0L239.2,276.0L269.7,276.0L300.3,250.5L330.8,250.5L361.3,276.0L391.9,276.0L422.4,276.0L452.9,250.5L483.5,276.0L514.0,148.5L544.5,276.0L575.1,225.0L605.6,276.0L636.1,225.0L666.7,276.0L697.2,250.5L727.7,225.0L758.3,276.0L788.8,123.0L819.3,250.5L849.9,123.0L880.4,148.5L910.9,250.5L941.5,276.0L972.0,276.0" pathLength="1" fill="none" stroke="#FF0A2E" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <g class="fade" fill="#FF3B5C"><circle cx="56.0" cy="276.0" r="3.5"/><circle cx="86.5" cy="276.0" r="3.5"/><circle cx="117.1" cy="276.0" r="3.5"/><circle cx="147.6" cy="276.0" r="3.5"/><circle cx="178.1" cy="225.0" r="3.5"/><circle cx="208.7" cy="276.0" r="3.5"/><circle cx="239.2" cy="276.0" r="3.5"/><circle cx="269.7" cy="276.0" r="3.5"/><circle cx="300.3" cy="250.5" r="3.5"/><circle cx="330.8" cy="250.5" r="3.5"/><circle cx="361.3" cy="276.0" r="3.5"/><circle cx="391.9" cy="276.0" r="3.5"/><circle cx="422.4" cy="276.0" r="3.5"/><circle cx="452.9" cy="250.5" r="3.5"/><circle cx="483.5" cy="276.0" r="3.5"/><circle cx="514.0" cy="148.5" r="3.5"/><circle cx="544.5" cy="276.0" r="3.5"/><circle cx="575.1" cy="225.0" r="3.5"/><circle cx="605.6" cy="276.0" r="3.5"/><circle cx="636.1" cy="225.0" r="3.5"/><circle cx="666.7" cy="276.0" r="3.5"/><circle cx="697.2" cy="250.5" r="3.5"/><circle cx="727.7" cy="225.0" r="3.5"/><circle cx="758.3" cy="276.0" r="3.5"/><circle cx="788.8" cy="123.0" r="3.5"/><circle cx="819.3" cy="250.5" r="3.5"/><circle cx="849.9" cy="123.0" r="3.5"/><circle cx="880.4" cy="148.5" r="3.5"/><circle cx="910.9" cy="250.5" r="3.5"/><circle cx="941.5" cy="276.0" r="3.5"/><circle cx="972.0" cy="276.0" r="3.5"/></g>
+</svg>
